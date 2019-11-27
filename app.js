@@ -44,4 +44,20 @@ $(function() {
     nav.toggleClass("show");
   });
 
+  // reviews  kenwheeler.github.io/slick/
+
+  let slider = $("#reviesSlider")
+
+
+  slider.slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    fade: true,
+    arrows: false
+  });
+
+
+
 });
